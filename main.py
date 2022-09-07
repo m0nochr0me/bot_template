@@ -17,7 +17,7 @@ from bot_app.handlers import *
 
 async def start():
     """
-    SlagBot
+    BotApp
     Entry point
     """
 

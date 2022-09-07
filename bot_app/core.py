@@ -19,7 +19,7 @@ logging.basicConfig(format='%(asctime)s.%(msecs)03d %(levelname)s %(message)s',
                     filename=config['log']['logfile'],
                     level=logging.DEBUG,
                     encoding='utf-8')
-logger = logging.getLogger('SlagBot')
+logger = logging.getLogger('BotApp')
 
 
 # DB
