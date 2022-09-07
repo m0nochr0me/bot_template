@@ -1,0 +1,44 @@
+en:
+  bot:
+    welcome: ENG Hello message!
+    help: |
+      ENG
+      Multiline
+      Help message
+    eula: |
+      ENG
+      END USER LICENSE AGREEMENT
+    gdpr: |
+      ENG
+      END USER PERSONAL DATA PROCESSING NOTICE
+    about: |
+      ENG
+      BotApp About
+      2022
+    cancel: 'Operation canceled'
+    not_registered: |
+      You are not registered yet!
+      Use /start command to be able to use this bot.
+    register:
+      choose_locale: 'Choose your locale'
+      enter_name: 'Your name:'
+      enter_age: 'Your age:'
+      age_range_error: 'Please input age between 18 and 99'
+      age_digits_error: 'Please use only digits'
+      complete: 'Registration successful!'
+    locale:
+      selected: 'Selected locale: '
+    btn:
+      start: '✨ Start'
+      cancel: '🚫 Cancel'
+      eula: '📕 License agreement'
+      gdpr: '🗒 GDPR Notice'
+      register: '🗿 Create profile'
+      locale: '🌐 Change language'
+      help: '❔ Help'
+      about: '🛸 About'
+
+  genders:
+    female: 'Female'
+    male: 'Male'
+    other: 'Other'

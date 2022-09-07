@@ -1,0 +1,24 @@
+log:
+  logdir: '/tmp'
+  logfile: 'bot_app.log'
+  rotate: true
+  rotate_period: '7d'
+
+telegram:
+  use_markdown: true
+
+beanie:
+  use_cache: true
+  ttl: 1
+  capacity: 10
+
+redis:
+  host: 'localhost'
+  port: '6379'
+  db: 13
+
+data:
+  dir: ''
+
+mongo:
+  db: 'bot_app_db'
